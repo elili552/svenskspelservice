@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearDetailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dip"
+    tools:context=".DetailOfferActivity"
+    android:weightSum="1">
+
+    <!-- Fullsize image -->
+    <ImageView
+        android:id="@+id/offer_activity_image"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/offer_activity_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:layout_gravity="top|left" />
+
+    <!-- Title label -->
+    <TextView
+        android:id="@+id/offer_activity_title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:textColor="#040404"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:clickable="false"
+        android:editable="false"
+        android:layout_gravity="top|center_horizontal"
+        android:textIsSelectable="false" />
+
+    <!-- Description label -->
+    <TextView
+        android:id="@+id/offer_activity_description_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:textColor="#343434"
+        android:textSize="16sp"
+        android:clickable="false"
+        android:editable="false"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Offertext label -->
+    <TextView
+        android:id="@+id/offer_activity_offer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:textColor="#343434"
+        android:textSize="14sp"
+        android:clickable="false"
+        android:editable="false"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Date label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/offer_activity_thru"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Url label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/offer_activity_url"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/offer_activity_company"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/offer_activity_type"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Add to personal list"
+        android:text="@string/offer_activity_add_button"
+        android:id="@+id/offer_activity_addPersonalListBtn" />
+
+</LinearLayout>
+</ScrollView>

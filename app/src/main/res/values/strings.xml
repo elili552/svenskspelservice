@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Svenskspelservice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_text">Title</string>
+    <string name="offer_text">Text</string>
+    <string name="description_text">Description</string>
+    <string name="offer_activity_image">Offer image</string>
+    <string name="offer_activity_detail">DetailOfferActivity</string>
+    <string name="offer_activity_add_button">Add offer to personal list</string>
+
+</resources>
